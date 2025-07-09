@@ -1,0 +1,14 @@
+ER Diagram Description:
+
+Entities:
+1. User (UserID, Name, Email, Password, Role [Freelancer/Client])
+2. Profile (ProfileID, UserID, Skills, Experience, Rating)
+3. Project (ProjectID, ClientID, Title, Description, Budget, Deadline, Status)
+4. Application (ApplicationID, ProjectID, FreelancerID, Proposal, Status)
+5. Review (ReviewID, ProjectID, ReviewerID, Rating, Comment)
+
+Relationships:
+- User creates Profile
+- Client posts Project
+- Freelancer applies via Application
+- Client gives Review to Freelancer

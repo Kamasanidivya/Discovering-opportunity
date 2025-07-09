@@ -1,0 +1,18 @@
+Project Structure:
+
+/FreelanceFinder
+│
+├── backend/
+│   ├── app.py
+│   ├── models.py
+│   ├── routes/
+│   ├── database/
+│   └── requirements.txt
+│
+├── frontend/
+│   ├── index.html
+│   ├── styles/
+│   ├── scripts/
+│   └── components/
+│
+└── README.md
